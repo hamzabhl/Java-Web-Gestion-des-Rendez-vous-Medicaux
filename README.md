@@ -1,12 +1,12 @@
-[1. Contexte général](#1. Contexte général)
-[2. Problématiques](#2. Problématiques)
-[3. Objectifs](#3. Objectifs)
-[4. Diagramme de Classe](#4. Diagramme de Classe)
-[5. Modele Conceptuel de la Base généré](#5. Modele Conceptuel de la Base généré)
-[6. Testes](#6. Testes)
-  [6.1 Création des tables](##6.1 Création des tables)
-  [6.2 Insertion de données](##6.2 Insertion de données)
-  [6.3 Filtrage](##6.3 Filtrage)
+- [1. Contexte général](#1. Contexte général)
+- [2. Problématiques](#2. Problématiques)
+- [3. Objectifs](#3. Objectifs)
+- [4. Diagramme de Classe](#4. Diagramme de Classe)
+- [5. Modele Conceptuel de la Base généré](#5. Modele Conceptuel de la Base généré)
+- [6. Testes](#6. Testes)
+  - [6.1 Création des tables](##6.1 Création des tables)
+  - [6.2 Insertion de données](##6.2 Insertion de données)
+  - [6.3 Filtrage](##6.3 Filtrage)
 
 # 1. Contexte général
 Dans un environnement médical moderne, la gestion des rendez-vous entre les patients et les professionnels de santé représente un enjeu crucial en termes d'organisation, d'efficacité et de satisfaction des patients. Les structures médicales, qu'elles soient publiques ou privées, font face à un afflux croissant de demandes, ce qui rend les processus manuels (prise de rendez-vous par téléphone, gestion papier, etc.) obsolètes, sujets aux erreurs et peu efficaces.
@@ -21,7 +21,7 @@ La gestion traditionnelle des rendez-vous soulève plusieurs problèmes :
 Ces limites justifient la mise en place d’un système automatisé de gestion des rendez-vous médicaux.
   
 # 3. Objectifs
-Le projet a pour but de concevoir et développer une application informatique permettant de gérer efficacement les rendez-vous médicaux. Les objectifs principaux sont :
+Le projet a pour but de concevoir et développer une application informatique permettant de gérer efficacement les rendez-vous médicaux. Les objectifs principaux sont :  
     ✅ Permettre aux patients de prendre, consulter ou annuler leurs rendez-vous en ligne.  
     ✅ Offrir aux médecins une vue claire de leur emploi du temps.  
     ✅ Réduire les conflits de planning et les erreurs de réservation.  
