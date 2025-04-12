@@ -12,7 +12,7 @@
    - [6.2 Insertion de données](#62-insertion-de-données)  
    - [6.3 Filtrage](#63-filtrage)
 
------
+---
 
 ## 1. Contexte général
 
@@ -57,19 +57,13 @@ Le projet a pour but de concevoir et développer une application informatique pe
 
 ---
 
-## 6. Testes
-
-### 6.1 Création
-
+## 6. Testes  
+### 6.1 Création  
 <img width="293" alt="Image" src="https://github.com/user-attachments/assets/83e48c59-f25a-4c23-9303-69bce13c38b1" />  
-<img width="401" alt="Image" src="https://github.com/user-attachments/assets/445d8880-b77e-4415-a83d-c368fe51d3bf" />
-
--
-
-### 6.2 Insertion de données
-<img width="299" alt="Image" src="https://github.com/user-attachments/assets/06bbaf88-c376-40d8-9125-558f2a57a6be" />
-
--
-
-### 6.3 Filtrage
+<img width="401" alt="Image" src="https://github.com/user-attachments/assets/445d8880-b77e-4415-a83d-c368fe51d3bf" />  
+  
+### 6.2 Insertion de données  
+<img width="299" alt="Image" src="https://github.com/user-attachments/assets/06bbaf88-c376-40d8-9125-558f2a57a6be" />  
+  
+### 6.3 Filtrage  
 <img width="356" alt="Image" src="https://github.com/user-attachments/assets/7002e3fb-4032-46a5-88ce-fce524890109" />
