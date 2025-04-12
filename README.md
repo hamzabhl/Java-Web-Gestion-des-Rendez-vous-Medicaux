@@ -4,7 +4,7 @@
 2. [Problématiques](#2-problématiques)  
 3. [Objectifs](#3-objectifs)  
 4. [Diagramme de Classe](#4-diagramme-de-classe)
-5. [Modèle Conceptuel de la Base généré](#5-modèle-conceptuel-de-la-base-genere)
+5. [Modèle Conceptuel de la Base généré](#5-modele-conceptuel-de-la-base-genere)
 6. [Testes](#6-testes)  
    - [6.1 Création](#61-création)  
    - [6.2 Insertion de données](#62-insertion-de-données)  
@@ -33,7 +33,7 @@ Le projet a pour but de concevoir et développer une application informatique pe
 # 4. Diagramme de Classe
 <img width="517" alt="Image" src="https://github.com/user-attachments/assets/82d02d5b-bfeb-4c5a-88ac-8b89ee3fa931" />  
 
-# 5. Modele Conceptuel de la Base généré  
+# 5. Modèle Conceptuel de la Base généré  
 <img width="569" alt="Image" src="https://github.com/user-attachments/assets/382d92d5-41cd-4838-aa6f-6880007411da" />  
 
 # 6. Testes  
