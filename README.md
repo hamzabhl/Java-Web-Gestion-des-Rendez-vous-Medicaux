@@ -1,16 +1,19 @@
-[1. Contexte général](#1.-Contexte-général)  
-[2. Problématiques](#2.-Problématiques)  
-[3. Objectifs](#3.-Objectifs)  
-[4. Diagramme de Classe](#4.Diagramme-de-Classe)  
-[5. Modele Conceptuel de la Base généré](#5.-Modele-Conceptuel-de-la-Base-généré)  
-[6. estes](#6.-Testes)  
-  [6.1 Création des tables](##6.1-Création-des-tables)  
-  [6.2 Insertion de données](##6.2-Insertion-de-données)  
-  [6.3 Filtrage](##6.3-Filtrage)  
+## 📚 Table des matières
+
+1. [Contexte général](#1-contexte-général)  
+2. [Problématiques](#2-problématiques)  
+3. [Objectifs](#3-objectifs)  
+4. [Diagramme de Classe](#4-diagramme-de-classe)  
+5. [Modèle Conceptuel de la Base généré](#5-modèle-conceptuel-de-la-base-généré)  
+6. [Testes](#6-testes)  
+   - [6.1 Création](#61-création)  
+   - [6.2 Insertion de données](#62-insertion-de-données)  
+   - [6.3 Filtrage](#63-filtrage)
+
   
 
 
-# 1. Contexte général
+# 1. Contexte-général
 Dans un environnement médical moderne, la gestion des rendez-vous entre les patients et les professionnels de santé représente un enjeu crucial en termes d'organisation, d'efficacité et de satisfaction des patients. Les structures médicales, qu'elles soient publiques ou privées, font face à un afflux croissant de demandes, ce qui rend les processus manuels (prise de rendez-vous par téléphone, gestion papier, etc.) obsolètes, sujets aux erreurs et peu efficaces.
 Avec l’évolution des technologies de l’information, la digitalisation de ces processus est devenue essentielle pour automatiser la planification, améliorer la gestion du temps, réduire les absences et fluidifier la communication entre les patients et le personnel médical.
   
