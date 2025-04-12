@@ -13,7 +13,7 @@
   
 
 
-# 1. Contexte-général
+# 1. Contexte général
 Dans un environnement médical moderne, la gestion des rendez-vous entre les patients et les professionnels de santé représente un enjeu crucial en termes d'organisation, d'efficacité et de satisfaction des patients. Les structures médicales, qu'elles soient publiques ou privées, font face à un afflux croissant de demandes, ce qui rend les processus manuels (prise de rendez-vous par téléphone, gestion papier, etc.) obsolètes, sujets aux erreurs et peu efficaces.
 Avec l’évolution des technologies de l’information, la digitalisation de ces processus est devenue essentielle pour automatiser la planification, améliorer la gestion du temps, réduire les absences et fluidifier la communication entre les patients et le personnel médical.
   
