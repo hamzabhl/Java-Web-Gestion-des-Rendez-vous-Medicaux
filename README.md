@@ -1,5 +1,6 @@
+# Gestion des Rendez-vous Médicaux  
+  
 ## 📚 Table des matières
-
 1. [Contexte général](#1-contexte-général)  
 2. [Problématiques](#2-problématiques)  
 3. [Objectifs](#3-objectifs)  
@@ -9,6 +10,7 @@
    - [6.1 Création](#61-création)  
    - [6.2 Insertion de données](#62-insertion-de-données)  
    - [6.3 Filtrage](#63-filtrage)  
+
   
 # 1. Contexte général
 Dans un environnement médical moderne, la gestion des rendez-vous entre les patients et les professionnels de santé représente un enjeu crucial en termes d'organisation, d'efficacité et de satisfaction des patients. Les structures médicales, qu'elles soient publiques ou privées, font face à un afflux croissant de demandes, ce qui rend les processus manuels (prise de rendez-vous par téléphone, gestion papier, etc.) obsolètes, sujets aux erreurs et peu efficaces.
