@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package entities;
 
 import javax.persistence.Entity;
@@ -13,10 +8,6 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
-/**
- *
- * @author hamza
- */
 @Entity
 @Table(name = "Users")
 @Inheritance(strategy = InheritanceType.JOINED)
@@ -28,15 +19,17 @@ public class User {
     private String prenom;
     private String email;
     private String password;
+    private String role; // ✅ Added role field
 
     public User() {
     }
 
-    public User(String nom, String prenom, String email, String password) {
+    public User(String nom, String prenom, String email, String password, String role) {
         this.nom = nom;
         this.prenom = prenom;
         this.email = email;
         this.password = password;
+        this.role = role;
     }
 
     public int getId() {
@@ -79,4 +72,12 @@ public class User {
         this.password = password;
     }
 
+    public String getRole() { // ✅ Getter
+        return role;
+    }
+
+    public void setRole(String role) { // ✅ Setter
+        this.role = role;
+    }
+    
 }

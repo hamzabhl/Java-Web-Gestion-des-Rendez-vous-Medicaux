@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package entities;
 
 import java.sql.Date;
@@ -15,10 +10,6 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-/**
- *
- * @author hamza
- */
 @Entity
 @Table(name = "Rdvs")
 public class Rdv {
@@ -29,23 +20,31 @@ public class Rdv {
 
     @Column(name = "date")
     private Date date;
+
     @Column(name = "heure")
     private Time heure;
 
+    @Column(name = "statut")
+    private String statut; // "en_attente", "confirme", "refuse"
+
     @ManyToOne
     private Medecin medecin;
+
     @ManyToOne
     private Patient patient;
 
     public Rdv() {
     }
 
-    public Rdv(Date date, Time heure, Medecin medecin, Patient patient) {
+    public Rdv(Date date, Time heure, Medecin medecin, Patient patient, String statut) {
         this.date = date;
         this.heure = heure;
         this.medecin = medecin;
         this.patient = patient;
+        this.statut = statut;
     }
+
+    // Getters & Setters
 
     public int getId() {
         return id;
@@ -69,6 +68,14 @@ public class Rdv {
 
     public void setHeure(Time heure) {
         this.heure = heure;
+    }
+
+    public String getStatut() {
+        return statut;
+    }
+
+    public void setStatut(String statut) {
+        this.statut = statut;
     }
 
     public Medecin getMedecin() {

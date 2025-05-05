@@ -1,31 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dao;
 
 import entities.Medecin;
 import java.util.List;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import util.HibernateUtil;
 
-/**
- *
- * @author hamza
- */
 public class MedecinDao extends AbstractDao<Medecin> {
 
     public MedecinDao() {
         super(Medecin.class);
     }
 
-    public List<Medecin> findBySpecialite(String specialite) {
+    public List<Medecin> searchByNameOrSpecialite(String keyword) {
         Session session = HibernateUtil.getSessionFactory().openSession();
-        List<Medecin> result = session.createQuery("FROM Medecin WHERE specialite = :spec")
-                .setParameter("spec", specialite)
-                .list(); // or getResultList() if available
-        session.close();
+        List<Medecin> result = null;
+
+        try {
+            String hql = "FROM Medecin WHERE LOWER(nom) LIKE :kw OR LOWER(specialite) LIKE :kw";
+            Query query = session.createQuery(hql);
+            query.setParameter("kw", "%" + keyword.toLowerCase() + "%");
+            result = query.list();
+        } finally {
+            session.close();
+        }
+
         return result;
     }
+
 }

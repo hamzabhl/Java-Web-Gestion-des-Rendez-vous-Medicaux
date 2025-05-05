@@ -6,7 +6,11 @@
 package dao;
 
 import entities.User;
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.mindrot.jbcrypt.BCrypt;
+import util.HibernateUtil;
 
 /**
  *
@@ -31,4 +35,28 @@ public class UserDao extends AbstractDao<User> {
     public boolean checkPassword(String plainPassword, String hashedPassword) {
         return BCrypt.checkpw(plainPassword, hashedPassword);
     }
+
+    public User findByEmail(String email) {
+        Session session = null;
+        Transaction tx = null;
+        User user = null;
+        try {
+            session = HibernateUtil.getSessionFactory().openSession();
+            tx = session.beginTransaction();
+            user = (User) session.createQuery("FROM User u WHERE u.email = :email")
+                    .setParameter("email", email)
+                    .uniqueResult();
+            tx.commit();
+        } catch (HibernateException e) {
+            if (tx != null) {
+                tx.rollback();
+            }
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+        return user;
+    }
+
 }
