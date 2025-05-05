@@ -11,7 +11,7 @@
    - [6.1 Création](#61-création)  
    - [6.2 Insertion de données](#62-insertion-de-données)  
    - [6.3 Filtrage](#63-filtrage)
-7. [Demo](#6-demo)
+7. [Demo](#7-demo)
 
 ---
 
