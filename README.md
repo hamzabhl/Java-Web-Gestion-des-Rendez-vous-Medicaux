@@ -11,6 +11,7 @@
    - [6.1 Création](#61-création)  
    - [6.2 Insertion de données](#62-insertion-de-données)  
    - [6.3 Filtrage](#63-filtrage)
+7. [Demo](#6-demo)
 
 ---
 
@@ -67,3 +68,6 @@ Le projet a pour but de concevoir et développer une application informatique pe
   
 ### 6.3 Filtrage  
 <img width="356" alt="Image" src="https://github.com/user-attachments/assets/7002e3fb-4032-46a5-88ce-fce524890109" />
+
+## 7. Demo  
+https://github.com/user-attachments/assets/63926890-8688-47ba-9e54-f1206b8074d1
